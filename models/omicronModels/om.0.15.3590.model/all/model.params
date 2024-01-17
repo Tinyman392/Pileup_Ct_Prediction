@@ -1,0 +1,1 @@
+{'colsample_bytree': 0.75, 'silent': 1, 'nthread': 128, 'subsample': 0.75, 'eta': 0.0625, 'max_depth': 4}
