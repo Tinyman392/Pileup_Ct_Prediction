@@ -104,3 +104,5 @@ python predictNormBin.py [pileup file] [model directory]
 ```
 
 It takes two inputs, the pileup file to use to predict with and the model directory output from the *buildModel.py* script in the (*GenomicModelCreator*)[https://github.com/Tinyman392/GenomicModelCreator/tree/f09c2720a249b5031e63545dfc6396ff2ac53280] submodule.  
+
+The script will output one prediction per fold (5 folds are trained by default) to standard output (1 prediction per line).  
