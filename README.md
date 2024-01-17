@@ -2,6 +2,20 @@
 
 This repo includes everything required to train an XGBoost model to predict Ct values for COVID-19 genomes based on pileup files.  Pileup files must be produced by the user by following the instructions on the accompanying paper.  
 
+## Init.sh
+
+You can run init.sh to initialize the rest of the repository, mainly, it just downloads the [GenomicModelCreator](https://github.com/Tinyman392/GenomicModelCreator/tree/f09c2720a249b5031e63545dfc6396ff2ac53280) submodule which is used to train models.  
+
+```bash
+bash init.sh
+```
+
+Additionally, you could just run the git submodule command to do it as follows:
+
+```bash
+git submodule update --init --recursive
+```
+
 ## Repo Contents
 
 The following directories exist in the repo:
